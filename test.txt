@@ -1,0 +1,18 @@
+Namespace(arch='cscnet', batchSize=1, bn=0, channels=128, chop=False, clip=1000000.0, conv_num=2, dataroot='datasets/ICVL64_31.db', gpu_ids=[1], gtroot='../../data/ICVL/test_crop/', init='kn', loss='l2', lr=0.001, no_cuda=True, no_log=False, no_ropt=False, noise_level=95, num_half_layer=6, prefix='sru3d_nobn_test', resume=True, resumePath='checkpoints/cscnet/cscnet_l1_bn0_0.00008_4_95_2_128/model_latest.pth', seed=2018, testroot='../../data/ICVL/test/', threads=8, unfolding=4, wd=0)
+Cuda Acess: 0
+=> creating model 'cscnet'
+use init scheme: kn
+MSELoss()
+==> Resuming from checkpoint checkpoints/cscnet/cscnet_l1_bn0_0.00008_4_95_2_128/model_latest.pth..
+Namespace(arch='cscnet', batchSize=1, bn=0, channels=128, chop=False, clip=1000000.0, conv_num=2, dataroot='datasets/ICVL64_31.db', gpu_ids=[1], gtroot='../../data/ICVL/test_crop/', init='kn', loss='l2', lr=0.001, no_cuda=True, no_log=False, no_ropt=False, noise_level=55, num_half_layer=6, prefix='sru3d_nobn_test', resume=True, resumePath='checkpoints/cscnet/cscnet_l1_bn0_0.00008_4_55_2_128/model_latest.pth', seed=2018, testroot='../../data/ICVL/test/', threads=8, unfolding=4, wd=0)
+Cuda Acess: 0
+=> creating model 'cscnet'
+use init scheme: kn
+MSELoss()
+==> Resuming from checkpoint checkpoints/cscnet/cscnet_l1_bn0_0.00008_4_55_2_128/model_latest.pth..
+Namespace(arch='cscnet', batchSize=1, bn=0, channels=128, chop=False, clip=1000000.0, conv_num=2, dataroot='datasets/ICVL64_31.db', gpu_ids=[1], gtroot='../../data/ICVL/test_crop/', init='kn', loss='l2', lr=0.001, no_cuda=True, no_log=False, no_ropt=False, noise_level=15, num_half_layer=6, prefix='sru3d_nobn_test', resume=True, resumePath='checkpoints/cscnet/cscnet_l1_bn0_0.00008_4_15_2_128/model_latest.pth', seed=2018, testroot='../../data/ICVL/test/', threads=8, unfolding=4, wd=0)
+Cuda Acess: 0
+=> creating model 'cscnet'
+use init scheme: kn
+MSELoss()
+==> Resuming from checkpoint checkpoints/cscnet/cscnet_l1_bn0_0.00008_4_15_2_128/model_latest.pth..

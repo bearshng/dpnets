@@ -1,0 +1,7 @@
+#python hsi_denoising_gauss_95.py --gpu-ids 0 -a mscnet_l1 -p mscnet_l1_bn0_0.0005_4_95_1_all_16 --bn 0 --unfolding 4 --num_half_layer 5 --batchSize 8 --lr 5e-4 --dataroot ./datasets/ICVL64_31.db  --testroot ../../data/ICVL/test/  --conv_num 1 --channels 16 -gr  ../../data/ICVL/test_crop/
+#python hsi_denoising_gauss_95.py --gpu-ids 0 -a mscnet_l1 -p mscnet_l1_bn0_0.0005_4_95_1_all_32 --bn 0 --unfolding 4 --num_half_layer 5 --batchSize 8 --lr 5e-4 --dataroot ./datasets/ICVL64_31.db  --testroot ../../data/ICVL/test/  --conv_num 1 --channels 32 -gr  ../../data/ICVL/test_crop/
+#python hsi_denoising_gauss_95.py --gpu-ids 0 -a mscnet_l1 -p mscnet_l1_bn0_0.0005_4_95_1_all_64 --bn 0 --unfolding 4 --num_half_layer 5 --batchSize 8 --lr 5e-4 --dataroot ./datasets/ICVL64_31.db  --testroot ../../data/ICVL/test/  --conv_num 1 --channels 64 -gr  ../../data/ICVL/test_crop/
+
+python hsi_denoising_gauss_95.py --gpu-ids 0 -a mscnet_l1 -p mscnet_l1_bn0_0.0005_4_95_1_all_256 --bn 0 --unfolding 4 --num_half_layer 5 --batchSize 8 --lr 5e-4 --dataroot ./datasets/ICVL64_31.db  --testroot ../../data/ICVL/test/  --conv_num 1 --channels 256 -gr  ../../data/ICVL/test_crop/
+
+#python hsi_denoising_gauss_95.py --gpu-ids 0 -a mscnet_l1 -p mscnet_l1_bn0_0.0005_4_95_1_all_128 --bn 0 --unfolding 4 --num_half_layer 5 --batchSize 8 --lr 5e-4 --dataroot ./datasets/ICVL64_31.db  --testroot ../../data/ICVL/test/  --conv_num 1 --channels 128 -gr  ../../data/ICVL/test_crop/
